@@ -69,6 +69,13 @@ export const visualOptions = {
     group: 'chart',
   },
 
+  forceOnlyY: {
+    type: 'boolean',
+    label: 'Apply forces only on y axis',
+    default: true,
+    group: 'chart',
+  },
+
   xTicksAuto: {
     type: 'boolean',
     label: 'Auto-place ticks on x axis',

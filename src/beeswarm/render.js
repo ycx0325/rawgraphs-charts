@@ -30,6 +30,7 @@ export function render(
     simulationStrength,
     nodePadding,
     sortSeriesBy,
+    forceOnlyY,
     xTicksAuto,
     xTicksAmount,
     xTicksOuter,
@@ -123,12 +124,16 @@ export function render(
   })
 
   // initialise simulation
-  let simulation = d3
-    .forceSimulation(data)
-    .force(
+  let simulation = d3.forceSimulation(data)
+
+  if (!forceOnlyY) {
+    simulation = simulation.force(
       'x',
       d3.forceX().x((d) => xScale(d.xValue))
     )
+  }
+
+  simulation
     .force(
       'y',
       d3.forceY((d) => yScale(d.series) + yScale.bandwidth() / 2)

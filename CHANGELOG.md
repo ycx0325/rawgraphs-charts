@@ -6,6 +6,7 @@
 - Added tick controls (auto/max/outer) and wired shared axes for: line chart, streamgraph, bump chart, horizon graph, contour plot, hexagonal binning, voronoi diagram, convex hull, bubble chart, beeswarm, gantt chart, violin plot.
 - Fixed axis ticks handling for band/ordinal axes when sharing helpers.
 - Gantt chart: added option to place the x axis on top or bottom.
+- Beeswarm chart: added option to move dots only on the y axis (no x axis movement).
 
 ## v1.0.1
 
