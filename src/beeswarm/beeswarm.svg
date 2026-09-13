@@ -11,42 +11,22 @@
     </style>
   </defs>
   <g id="secundary">
-    <circle class="cls-1" cx="37.5" cy="18" r="2"/>
-    <circle class="cls-1" cx="27.5" cy="37.5" r="2"/>
-    <circle class="cls-1" cx="13" cy="40" r="1.5"/>
-    <circle class="cls-1" cx="22.5" cy="42.5" r="1.4142"/>
-    <circle class="cls-1" cx="41.5" cy="13.5" r="2"/>
-    <circle class="cls-1" cx="44.5" cy="18" r="1.4142"/>
-    <circle class="cls-1" cx="46.4999" cy="14.5" r="1"/>
-    <circle class="cls-1" cx="31.9999" cy="38.5" r="1"/>
-    <circle class="cls-1" cx="22.4999" cy="46.5" r="1"/>
-    <circle class="cls-1" cx="26.4999" cy="42" r="1"/>
-    <circle class="cls-1" cx="46.4999" cy="45.9483" r="1"/>
-    <circle class="cls-1" cx="17" cy="44.5" r="3"/>
-  </g>
-  <g id="primary">
-    <circle class="cls-2" cx="31" cy="15.5" r="3"/>
-    <circle class="cls-2" cx="33.5" cy="10" r="1"/>
-    <circle class="cls-2" cx="41.5" cy="45.5" r="2"/>
-    <circle class="cls-2" cx="33.5" cy="21.5" r="1.4142"/>
-    <circle class="cls-2" cx="17.5" cy="30" r="1.5"/>
-    <circle class="cls-2" cx="37.4999" cy="23" r="1"/>
-    <circle class="cls-2" cx="19.5" cy="36.5" r="4"/>
-    <circle class="cls-2" cx="41.5" cy="21" r="1.4142"/>
-    <circle class="cls-2" cx="36.5" cy="13" r="1"/>
-    <circle class="cls-2" cx="38.5" cy="9.5" r="1"/>
-    <circle class="cls-2" cx="26" cy="18.5" r="1"/>
-    <circle class="cls-2" cx="28.9999" cy="21" r="1"/>
-    <circle class="cls-2" cx="13.9999" cy="32" r="1"/>
-    <circle class="cls-2" cx="27.9999" cy="30.5" r="1"/>
-    <circle class="cls-2" cx="30.4999" cy="34" r="1"/>
-    <circle class="cls-2" cx="34.4999" cy="35.5" r="1"/>
-    <circle class="cls-2" cx="12.4999" cy="35" r="1"/>
-    <circle class="cls-2" cx="9.4999" cy="37.5" r="1"/>
-    <circle class="cls-2" cx="25.4999" cy="33" r="1"/>
-    <circle class="cls-2" cx="36.4999" cy="45.9483" r="1"/>
-    <circle class="cls-2" cx="25" cy="15" r="1"/>
-    <circle class="cls-2" cx="22" cy="17.5" r="1"/>
-    <circle class="cls-2" cx="23" cy="28" r="3"/>
+    <!-- 半径 2 的六边形 -->
+    <polygon class="cls-1" points="37.5,16 39.232,17 39.232,19 37.5,20 35.768,19 35.768,17"/>
+    <polygon class="cls-1" points="27.5,35.5 29.232,36.5 29.232,38.5 27.5,39.5 25.768,38.5 25.768,36.5"/>
+    <polygon class="cls-1" points="41.5,11.5 43.232,12.5 43.232,14.5 41.5,15.5 39.768,14.5 39.768,12.5"/>
+
+    <!-- 半径 1.5 的六边形 -->
+    <polygon class="cls-1" points="13,38.5 14.299,39.25 14.299,40.75 13,41.5 11.701,40.75 11.701,39.25"/>
+
+    <!-- 半径 1.4142 的六边形 -->
+    <polygon class="cls-1" points="22.5,41.0858 23.7246,41.7929 23.7246,43.2071 22.5,43.9142 21.2754,43.2071 21.2754,41.7929"/>
+    <polygon class="cls-1" points="44.5,16.5858 45.7246,17.2929 45.7246,18.7071 44.5,19.4142 43.2754,18.7071 43.2754,17.2929"/>
+
+    <!-- 半径 1 的六边形 -->
+    <polygon class="cls-1" points="46.4999,13.5 47.366,14 47.366,15 46.4999,15.5 45.6338,15 45.6338,14"/>
+    <polygon class="cls-1" points="31.9999,37.5 32.866,38 32.866,39 31.9999,39.5 31.1338,39 31.1338,38"/>
+    <polygon class="cls-1" points="22.4999,45.5 23.366,46 23.366,47 22.4999,47.5 21.6338,47 21.6338,46"/>
+    <polygon class="cls-1" points="26.4999,45.5 27.366,46 27.366,47 26.4999,47.5 25.6338,47 25.6338,46"/>
   </g>
 </svg>
